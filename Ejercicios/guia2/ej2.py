@@ -1,0 +1,22 @@
+class Alumno:
+    def __init__(self, nombre, nota):
+        self.nombre = nombre
+        self.nota = nota
+
+    def imprimir(self):
+        print(f"Nombre:", self.nombre)
+        print(f"Nota:", self.nota)
+
+    def nota_mostrar(self):
+        if self.nota>=6:
+            print("Aprobado")
+        else:
+            print("Desaprobado")
+
+alumno1 = Alumno("Juan", 8)
+alumno1.imprimir()
+alumno1.nota_mostrar()
+
+alumno2 = Alumno("Pedro", 4)
+alumno2.imprimir()
+alumno2.nota_mostrar()

@@ -1,0 +1,3 @@
+Nombre:Joaquin
+Apellido:Parraga
+Edad:17
